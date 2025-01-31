@@ -1,0 +1,222 @@
+.fondGeneral{
+    background-color: grey;
+
+}
+
+section{
+    margin-left: 1%;
+    margin-right: 1%;
+
+    border-style: outset;
+    border-color: orange;
+}
+
+
+
+/* LE MENU */
+.alpha{
+    background-color: black;
+
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.alpha1{
+    display: flex;
+    margin-left: 1%;
+}
+
+.alpha2{
+    display: flex;
+    margin-left: 80%;
+}
+
+.gsk{
+    margin-left: 1%;
+}
+
+.monPortfolio{
+    margin-left: 1%;
+}
+
+.meConnaitre{
+    margin-left: 1%;
+}
+
+.meContacter{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+/* LE RECTANGLE BLEU NUMERO 1 */
+.beta{
+    background-image: url("DL-Generic-Background.webp");
+
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    background-image: url("logoGS.png");
+
+    width: 200px;
+    height: 240px;
+
+    margin-top: 5%;
+}
+
+.univers{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.trait1{
+    background-color: white;
+
+    width: 150px;
+    height: 1px;
+}
+
+.sporKulubu{
+    color: white;
+}
+
+
+
+/* LE RECTANGLE BLANC NUMERO 1 */
+.charlie{
+    background-color: white;
+
+    width: 100%;
+
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.charlie1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.trait2{
+    background-color: black;
+
+    width: 150px;
+    height: 1px;
+}
+
+.charlie2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.charlie2A{
+    margin: 1% 1% 1% 1%;
+}
+
+.charlie2B{
+    margin: 1% 1% 1% 1%;
+}
+
+.charlie2C{
+    margin: 1% 1% 1% 1%;
+}
+
+.charlie2D{
+    margin: 1% 1% 1% 1%;
+}
+
+.charlie2E{
+    margin: 1% 1% 1% 1%;
+}
+
+.charlie2F{
+    margin: 1% 1% 1% 1%;
+}
+
+/* LE RECTANGLE BLEU NUMERO 2*/
+
+.delta{
+    background-image: url("DL-Generic-Background.webp");
+
+    color: white;
+
+    width: 100%;
+}
+
+.delta1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.trait3{
+    background-color: white;
+
+    width: 150px;
+    height: 1px;
+}
+
+.delta2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.boiteFormation{
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+
+    margin: 5% 5% 5% 5%;
+}
+
+.boiteExperience{
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+
+    margin: 5% 5% 5% 5%;
+}
+
+/* LE RECTANGLE BLANC NUMERO 2*/
+
+.enigma{
+    background-color: white;
+
+    color: black;
+
+    width: 100%;
+}
+
+.enigma1{
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.trait4{
+    background-color: black;
+
+    width: 150px;
+    height: 1px;
+
+}
