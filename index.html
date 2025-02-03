@@ -27,7 +27,7 @@
 
         <div class="beta">
             <div>
-                <div class="logo"></div>
+                <div class="maxiLogoGS"></div>
                 <div class="univers"><h1>Univers GS</h1></div>
                 <div class="trait1"></div>
                 <div class="sporKulubu"><h2>Spor Kulubu</h2></div>
@@ -81,11 +81,13 @@
 
             <div class="delta2">
                 <div class="boiteFormation">
+                    <div class="miniLogoGS"></div>
                     <div><h2>Formation</h2></div>
                     <div class="texteFormation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo nulla voluptatem optio architecto! Esse porro perspiciatis alias reiciendis eaque eos nostrum necessitatibus sed, molestias minus et perferendis earum dignissimos?</div>
                 </div>
 
                 <div class="boiteExperience">
+                    <div class="miniLogoGS"></div>
                     <div><h2>Experience</h2></div>
                     <div class="texteExperience">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo nulla voluptatem optio architecto! Esse porro perspiciatis alias reiciendis eaque eos nostrum necessitatibus sed, molestias minus et perferendis earum dignissimos?</div>
                 </div>
@@ -102,11 +104,75 @@
             </div>
 
             <div class="enigma2">
-
+                <div class="boiteFormulaire">
+                    <form method="post" action="fichier.php"> <!-- defini un formulaire 
+                        method : indique par quel moyen les elements sont traités
+                        action : fichier qui va traiter les donnes -->
+                    
+                        <label for="nom">Nom</label> <!-- intitule -->
+        
+                        <input type="text" name="nom" id="nom" placeholder="Nom"/> <!-- choix de champ-->
+                        <!-- placeholder = visible dans la case -->
+        
+                        <br/><br/>
+        
+                        <label for="prenom">Prénom</label> 
+        
+                            <input type="text" name="prenom" id="prenom" placeholder="Prénom"/>
+                         
+                        <br/><br/>
+        
+                        <label for="tel">Téléphone</label> 
+        
+                        <input type="text" name="tel" id="tel" placeholder="indiquer votre numéro" maxlength="10" />
+                        <!-- limite le nombre de caractere-->
+        
+                        <br/><br/>
+        
+                        <label for="mail">Adresse mail</label> 
+        
+                            <input type="email" name="email" id="email" placeholder="email" />
+        
+                        <br/><br/>
+        
+                        <input type="submit" value="inscription"/>
+                        <input type="reset" value="effacer"/>
+                     
+                        <!-- utiliser avec javascript 
+                        <input type="button" value="inscription"/> -->
+                    </form>
+                </div>
             </div>
-
         </div>
 
+        
+        <div class="figma">
+            <div class="figma1">
+                <div class="boiteAdresse">
+                    <div>
+                        <h1>Adresse</h1>
+                    </div>
+
+                    <div>
+                        <p>742 Evergreen Terrace, Spriengfield, USA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="figma2">
+                <div class="boiteReseaux">
+                    <div>
+                        <h1>Mes Réseaux</h1>
+                    </div>
+
+                    <div class="lesReseaux">
+                        <div class="reseauxInstagram"></div>
+                        <div class="reseauxFacebook"></div>
+                        <div class="reseauxLinkedin"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer></footer>
