@@ -14,6 +14,7 @@ section{
 
 
 /* LE MENU */
+
 .alpha{
     background-color: black;
 
@@ -53,7 +54,9 @@ section{
 }
 
 
+
 /* LE RECTANGLE BLEU NUMERO 1 */
+
 .beta{
     background-image: url("DL-Generic-Background.webp");
 
@@ -65,7 +68,7 @@ section{
     text-align: center;
 }
 
-.logo{
+.maxiLogoGS{
     background-image: url("logoGS.png");
 
     width: 200px;
@@ -93,6 +96,7 @@ section{
 
 
 /* LE RECTANGLE BLANC NUMERO 1 */
+
 .charlie{
     background-color: white;
 
@@ -148,6 +152,8 @@ img{
     margin: 1% 1% 1% 1%;
 }
 
+
+
 /* LE RECTANGLE BLEU NUMERO 2*/
 
 .delta{
@@ -156,6 +162,7 @@ img{
     color: white;
 
     width: 100%;
+    height: 400px;
 }
 
 .delta1{
@@ -178,9 +185,18 @@ img{
     text-align: center;
 }
 
+/*
+.miniLogoGS{
+    background-image: url("logoGS.png");
+
+    height: 50px;
+    width: 50px;
+}
+*/
+
 .boiteFormation{
     width: 300px;
-    height: 300px;
+    /*height: 100px;*/
 
     text-align: center;
 
@@ -189,14 +205,16 @@ img{
 
 .boiteExperience{
     width: 300px;
-    height: 300px;
+    /*height: 100px;*/
 
     text-align: center;
 
     margin: 5% 5% 5% 5%;
 }
 
-/* LE RECTANGLE BLANC NUMERO 2*/
+
+
+/* LE RECTANGLE BLANC NUMERO 2 */
 
 .enigma{
     background-color: white;
@@ -204,6 +222,7 @@ img{
     color: black;
 
     width: 100%;
+    height: 300px;
 }
 
 .enigma1{
@@ -213,10 +232,95 @@ img{
     text-align: center;
 }
 
+.enigma2{
+    justify-content: center;
+    text-align: center;
+}
+
+/*
+.boiteFormulaire{
+    margin-bottom: 10px;
+}
+*/
+
 .trait4{
     background-color: black;
 
     width: 150px;
     height: 1px;
 
+    margin-bottom: 20px;
+}
+
+
+
+/* RECTANGLE BLEU NUMERO 3 */
+
+.figma{
+    background-image: url("DL-Generic-Background.webp");
+
+    width: 100%;
+    height: 300px;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.figma1{
+    width: 300px;
+    /*height: 150px;*/
+
+    text-align: center;
+
+    margin: 5% 25% 5% 5%;
+}
+
+.figma2{
+    width: 300px;
+    /*height: 150px;*/
+
+    text-align: center;
+
+    margin: 5% 5% 5% 25%;
+}
+
+.boiteReseaux{
+    color: black;
+}
+
+.lesReseaux{
+    display: flex;
+}
+
+.reseauxInstagram{
+    background-image: url("instagram.png");
+
+    height: 64px;
+    width: 64px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.reseauxFacebook{
+    background-image: url("facebook.png");
+
+    height: 64px;
+    width: 64px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.reseauxLinkedin{
+    background-image: url("linkedin.png");
+
+    height: 64px;
+    width: 64px;
+
+    margin-left: 5%;
+    margin-right: 5%;
 }
